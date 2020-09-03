@@ -12,7 +12,6 @@
 
 .Card:hover {
   box-shadow: 2px 2px 2px 2px grey;
-  transition: all 0.125s ease-in-out;
 }
 
 .Card > p {
