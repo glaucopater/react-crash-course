@@ -5,9 +5,10 @@ import { Card } from "./components/Card";
 export default function App() {
   return (
     <div className="App">
-      <h1>Reaact Crash Course</h1>
-      <h2>Part 1</h2>
+      <h1>React Crash Course</h1>
+      <h2>Session 1</h2>
       <Card value={1} />
+      <Card value={2} />
     </div>
   );
 }
