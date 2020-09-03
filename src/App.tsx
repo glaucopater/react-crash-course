@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <h1>Reaact Crash Course</h1>
       <h2>Part 1</h2>
-      <Card />
+      <Card value={1} />
     </div>
   );
 }
