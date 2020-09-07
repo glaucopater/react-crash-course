@@ -4,8 +4,16 @@ import { Deck } from "./containers/Deck";
 import { Card } from "./components/Card";
 
 export default function App() {
+  const handleCounterClick = (cardValue: number) => {
+    console.log("App handleCounterClick ", cardValue);
+  };
+
   const cards = Array.from(Array(3).keys()).map((item) => (
-    <Card key={item} value={item} />
+    <Card
+      key={item}
+      value={item}
+      counterClick={(val: number) => handleCounterClick(val)}
+    />
   ));
 
   return (
